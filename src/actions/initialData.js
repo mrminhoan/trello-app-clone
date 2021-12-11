@@ -2,14 +2,14 @@ export const initialData = {
     boards: [
         {
             id: 'board-1',
-            columnOrder: ['column-1', 'column-2','column-3',],
+            columnOrder: ['column-1', 'column-2', 'column-3',],
             columns: [
                 {
                     id: 'column-1',
                     boardId: 'board-1',
                     title: 'To do column',
-                    cardOrder: ['card-1', 'card-2','card-3','card-4','card-5','card-6','card-7'],
-                    cards:[
+                    cardOrder: ['card-1', 'card-2', 'card-3', 'card-4', 'card-5', 'card-6', 'card-7'],
+                    cards: [
                         {
                             id: 'card-1', boardId: 'board-1', columnID: 'column-1', title: 'Title of card 1', cover: "https://trungquandev.com/wp-content/uploads/2018/02/batchanhdao-trungquandev.jpg"
                         },
@@ -31,7 +31,7 @@ export const initialData = {
                         {
                             id: 'card-7', boardId: 'board-1', columnID: 'column-1', title: 'Title of card 7', cover: null
                         },
-                   
+
                     ]
                 },
 
@@ -39,8 +39,8 @@ export const initialData = {
                     id: 'column-2',
                     boardId: 'board-1',
                     title: 'Inprogress Column',
-                    cardOrder: ['card-10', 'card-9','card-8'],
-                    cards:[
+                    cardOrder: ['card-10', 'card-9', 'card-8'],
+                    cards: [
                         {
                             id: 'card-8', boardId: 'board-1', columnID: 'column-1', title: 'Title of card 8', cover: null
                         },
@@ -58,8 +58,8 @@ export const initialData = {
                     id: 'column-3',
                     boardId: 'board-1',
                     title: 'Done Column',
-                    cardOrder: ['card-11', 'card-12','card-13'],
-                    cards:[
+                    cardOrder: ['card-11', 'card-12', 'card-13'],
+                    cards: [
                         {
                             id: 'card-10', boardId: 'board-1', columnID: 'column-1', title: 'Title of card 10', cover: null
                         },

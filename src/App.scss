@@ -10,9 +10,7 @@ body{
 
 .trello-minhhoangdev-master{
     height: 100vh;
-    display: grid;
-    grid-template-rows:  40px 50px 1fr;
-    line-height: 1.3rem;
+    overflow: hidden;
     background-color: $board-bg-color ;
 
     .navbar{
@@ -23,4 +21,4 @@ body{
  
    
   
-}
+} 
