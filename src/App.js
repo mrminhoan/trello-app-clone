@@ -11,9 +11,7 @@ function App() {
     <div className="trello-minhhoangdev-master">
       <AppBar />
       <BoardBar />
-      <BoardContent/>
-      
-
+      <BoardContent />
     </div>
   );
 }
