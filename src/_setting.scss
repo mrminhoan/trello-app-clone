@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
 
 $gap: 10px;
-// appbar + boardbar + boardcontent = 99vh , 1vh for scoll bar x 
+// appbar + boardbar + boardcontent = 99vh , 1vh for scollbar
 $appbar-app-height: 5vh; 
 $navbar-board-height: 6vh;
 $board-content-height: 88vh;
 // color
+$app-main-text-color: #333;
 $board-bg-color: #0079bf;
 $common-elemnt-bg:rgba(255,255,255, .24);
+
+$column-border-radius: 5px;
