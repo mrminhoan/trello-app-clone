@@ -6,10 +6,12 @@ function Card(props){
     return(
         <div className="card-item" >
             {card.cover && 
-            <img 
-            src={card.cover}  
-            className="card-cover" 
-            alt = "image"/>}
+                <img 
+                    src={card.cover}  
+                    className="card-cover" 
+                    alt = "image"
+                />
+            }
             {card.title}
         </div>
     )
